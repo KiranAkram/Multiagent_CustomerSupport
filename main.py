@@ -2,7 +2,6 @@ import streamlit as st
 from crewai import Crew
 from agents import support_agent, support_quality_assurance_agent
 from tasks import get_inquiry_resolution_task, quality_assurance_review
-import nest_asyncio
 import logging
 import os
 
@@ -12,8 +11,6 @@ os.environ["CREWAI_DISABLE_TELEMETRY"] = "true"
 
 # Set the logging level for httpx to WARNING to suppress INFO logs
 logging.getLogger("httpx").setLevel(logging.WARNING)
-
-nest_asyncio.apply()
 
 
 def main():
