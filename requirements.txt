@@ -2,3 +2,5 @@ crewai==0.95.0
 crewai_tools==0.25.8
 nest_asyncio==1.6.0
 streamlit==1.41.1
+openpyxl==3.1.5
+docarray==0.40.0
