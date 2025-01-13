@@ -9,14 +9,9 @@ This is a multi-agent customer support system built using Streamlit and the `cre
 - Dynamic task creation based on user input
 
 
- Open your web browser and go to `https://multiagent-customersupport.streamlit.app/` to access the application.
+ Open your web browser and go to [Customer Support](https://multiagent-customersupport.streamlit.app/) to access the application.
 
 ## Example
-
-
-![App Screenshot 1](images/multiagent1.png)
-![App Screenshot 2](images/multiagent2.png)
-
 
 1. Open the application in your web browser.
 2. Provide the necessary details in the input fields:
@@ -27,6 +22,11 @@ This is a multi-agent customer support system built using Streamlit and the `cre
     - Website (link to the site you need help from)
 3. Click the "Get Support Response" button to generate a response.
 4. The response will be displayed on the page. (you can continue asking question answer is not clear by only updating your query)
+
+
+![App Screenshot 1](images/multiagent1.png)
+![App Screenshot 2](images/multiagent2.png)
+
 
 ## File Structure
 
