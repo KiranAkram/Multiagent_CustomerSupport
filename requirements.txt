@@ -4,3 +4,4 @@ nest_asyncio==1.6.0
 streamlit==1.41.1
 openpyxl==3.1.5
 docarray==0.40.0
+pysqlite3-binary
